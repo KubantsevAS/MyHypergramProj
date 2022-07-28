@@ -8,6 +8,7 @@ canvas {
     margin: 10px;
     width: 70%;
     background-color: white;
+    height: auto;
 }
 
 .panel{
@@ -41,18 +42,9 @@ canvas {
 .range input {
     width: 200px;
 }
+
 #save-button {
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    border: 0;
-    background-color: #1d5d3f;
-    border-radius: 2px;
-    font-size: 20px;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin-top: 50px;
-    color: #a0f2cc;
+    display: none;
 }
 
 .file-input {
@@ -71,6 +63,33 @@ canvas {
     margin-bottom: 50px;
     color: #a0f2cc;
 }
+.sav_btn {
+    background-color: #1d5d3f;
+    color: #a0f2cc;
+}
 #file-input{
     display: none;
+}
+
+@media (max-width: 550px) {
+
+    body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    canvas {
+        width: 90%;
+        height: 70%;
+    }
+    .panel_inner {
+        display: block;
+        height: auto;
+    }
+    .file-input {
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+        margin: 5px auto;
+        text-align: center;
+    }  
 }
