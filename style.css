@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    margin: 0;
+    background-color: #43ea9b;
+    height: 100vh;
+}
+canvas {
+    margin: 10px;
+    width: 70%;
+    background-color: white;
+}
+
+.panel{
+    margin: 10px 20px;
+    background-color: #787a86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.panel_inner {
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.range {
+    display: block;
+    text-align: center;
+    width: 250px;
+    margin: 0;
+}
+
+.range p {
+    margin: 0 auto 5px;
+    font-size: 20px;
+}
+.range input {
+    width: 200px;
+}
+#save-button {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 0;
+    background-color: #1d5d3f;
+    border-radius: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 50px;
+    color: #a0f2cc;
+}
+
+.file-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 0;
+    background-color: #363c44;
+    border-radius: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 50px;
+    color: #a0f2cc;
+}
+#file-input{
+    display: none;
+}
